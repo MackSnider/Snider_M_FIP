@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+		<title class="hidden">Band-Aid Beer</title>
+			<link href="css/reset.css" rel="stylesheet" type="text/css">
+			<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="container">
+			<header class="mainHeader">
+				<img src="images/Bandaid.svg" alt="Main Bandaid Logo">
+				<nav class="mainNav">
+				<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutUs.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="opportunities.html">Opportunities</a></li>
+						<li><a href="buyOnline.html">Buy</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="splitter"></div>
+				<section class="intro">
+					<h2 class="welcomeText">Welcome</h2>
+					<!-- anywhere that is a div block will be an image when I get the photos done :) -->
+					<img src="images/bandaid_cutout.png" height="550" width="1600" alt="beer bottle design">
+					<p>Hello. This is just some example text that is occupying this space. This text will no longer be here after I figure out what I plan on putting here. Maybe it will be about a cat, a rat, or something that involves beer! Who knows... only time will tell</p>
+				</section>
+				<section class="galleryTop">
+					<h2 class="hidden">Image Gallery Top Images</h2>
+					<!-- trying something -->
+				<video class="bottle" src="assets/rotationVideoSmall.mp4" type="video/mp4" preload></video>
+
+					<div class="image2"></div>
+				</section>
+				<section class="galleryBottom">
+					<div class="image3"></div>
+					<div class="image4"></div>
+				</section>
+			<section class="learning">
+				<!-- make sure to change javascript -->
+				<h2 onclick="learnMore()"><span class="titleLearn"><a>Learn More</a></span></h2>
+				<!-- text needs to go bellow in the p tag -->
+				<p id="learnMoreText"></p>
+			</section>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script defer src="js/main.js"></script>
+	</body>
+</html>

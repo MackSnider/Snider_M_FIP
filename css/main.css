@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'aemstelregular';
+    src: url('../fonts/aemstel-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aemstel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body 
+{
+  font-family: Arial, sans-serif;
+  color: #000;
+  background: rgb(184,66,66);
+  background: linear-gradient(180deg, rgba(184,66,66,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	max-width: 1600px;
+/*	background-color: #0F0E15;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+  margin: 100px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.mainHeader
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.mainHeader img
+{
+  width: 4%;
+  margin: 20px;
+}
+
+.mainHeader img:hover
+{
+  transform: scale(1.20);
+  transition: transform .25s ease;
+}
+
+.mainNav
+{
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial;
+  margin-left: auto;
+  height: 75px;
+  margin-right: 20px;
+}
+
+.mainNav li
+{
+  display: inline-block;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.mainNav li a
+{
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.mainNav a:hover 
+{
+  background-color: #000;
+  color: white;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.splitter
+{
+  margin-top: 20px;
+  height: 5px;
+  background-color: #B84242;
+  margin-bottom: 25px;
+}
+
+.intro
+{
+  margin-bottom: 25px;
+}
+
+.intro h2
+{
+  font-size: 60px;
+  font-family: aemstelregular;
+  text-align: center;
+  margin: 75px;
+  color: #000;
+}
+
+.intro img
+{
+  background-color: #000;
+  height: 550px;
+  margin-bottom: 25px;
+}
+
+.intro p
+{
+  font-size: 20px;
+  text-align: center;
+  margin: 200px;
+}
+
+.galleryTop
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.image1
+{
+  height: 250px;
+  width: 500px;
+  background-color: #000;
+  margin-right: 5px;
+}
+
+.image2
+{
+  height: 250px;
+  width: 500px;
+  background-color: #000;
+  margin-left: 5px;
+}
+
+.galleryBottom
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.image3
+{
+  height: 250px;
+  width: 500px;
+  background-color: #000;
+  margin-right: 5px;
+}
+
+.image4
+{
+  height: 250px;
+  width: 500px;
+  background-color: #000;
+  margin-left: 5px;
+}
+
+.learning
+{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.learning h2
+{
+  font-size: 70px;
+  font-family: aemstelregular;
+  text-align: center;
+  margin-bottom: 25px; 
+}
+
+.learning h2:hover
+{
+  transform: scale(0.97);
+  transition: transform .3s ease;
+  cursor: pointer;
+}
+
+
+/*trying something*/
+
+.bottle
+{
+  height: 250px;
+  width: 500px;
+}
+
+.bottle:hover
+{
+  transform: scale(.95);
+  transition: transform .25s ease;
+  border-radius: 10px;
+}
