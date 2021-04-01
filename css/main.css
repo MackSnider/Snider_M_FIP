@@ -97,7 +97,7 @@ body
   margin-bottom: 25px;
 }
 
-.intro h2
+.intro h2, .aboutText
 {
   font-size: 60px;
   font-family: aemstelregular;
@@ -178,13 +178,18 @@ body
   margin-bottom: 200px;
 }
 
-.bottle
+.caseAnimation
+{
+  margin-right: 45px;
+}
+
+.bottle, .caseAnimation
 {
   height: 250px;
   width: 500px;
 }
 
-.bottle:hover
+.bottle:hover, .caseAnimation:hover
 {
   transform: scale(.95);
   transition: transform .25s ease;
@@ -287,4 +292,36 @@ body
 {
   opacity: 1;
   pointer-events: all;
+}
+
+/*About Page*/
+
+.about img
+{
+  height: 550px;
+  width: 100%;
+}
+
+/*.about h2
+{
+  position: absolute; 
+  top: 42%; 
+  width: 85%; 
+  text-align: center;
+}*/
+
+.about p
+{
+  font-family: aemstelregular;
+  font-size: 20px;
+  margin-right: 300px;
+  margin-left: 300px;
+  line-height: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.middle
+{
+
 }
