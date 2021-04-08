@@ -9,9 +9,30 @@
 	</head>
 	<body>
 		<div id="container">
-			<header id="mainHeader" class="grid">
+			<header id="mainHeader">
 				
 				<img src="images/Bandaid.svg" alt="Main Bandaid Logo" id="mainLogo">
+				<!-- This is the NAV for mobile -->
+				<section class="menuNav">
+				<button data-modal-target="#modal">Menu</button>
+				<div class="modal" id="modal">
+					<div class="modal-header">
+						<div class="title">Menu</div>
+						<button data-close-button class="close-button">&times;</button>
+					</div>
+				<div class="modal-body">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="opportunities.html">Opportunities</a></li>
+						<li><a href="buyOnline.html">Buy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="overlay"></div>
+			</section>
+
 				<nav class="mainNav">
 				<h2 class="hidden">Main Navigation</h2>
 					<ul>
@@ -38,31 +59,19 @@
 				<video class="caseAnimation" src="assets/case_opening_animation.mp4" type="video/mp4" preload></video>
 
 				</section>
-				<!-- <section class="galleryBottom">
-					<div class="image3"></div>
-					<div class="image4"></div>
-				</section> -->
-			<section class="learning">
-				<!-- make sure to change javascript -->
-				<!-- <h2 onclick="learnMore()"><span class="titleLearn"><a>Learn More</a></span></h2> -->
-				<!-- text needs to go bellow in the p tag -->
-				<!-- <p id="learnMoreText"></p> -->
-				<button data-modal-target="#modal">Learn More</button>
-				<div class="modal" id="modal">
-					<div class="modal-header">
-						<div class="title">More About Bandaid Beer</div>
-						<button data-close-button class="close-button">&times;</button>
-					</div>
-					<div class="modal-body">
-						The process of the original Bandaid Beer’s development is currently unknown. Mackenzie Snider is not willing to share that information with anyone as it is top secret.
-				</div>
+				<div id="bottomSection">
+				<h2 class="learningText">Learn More</h2>
+
+			<div id="reveal">
+				<p>The process of the original Bandaid Beer’s development is currently unknown. Mackenzie Snider is not willing to share that information with anyone as it is top secret.</p>
 			</div>
-			<div id="overlay"></div>
-			</section>
+			
+			</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script defer src="js/main.js"></script>
 		<script defer src="js/animation.js"></script>
 		<script defer src="js/modal.js"></script>
+		<script defer src="js/learn.js"></script>
 	</body>
 </html>
