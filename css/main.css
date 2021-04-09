@@ -271,7 +271,7 @@ body
 
 }
 
-.intro img, .about img
+.intro img, .about img, .adverts img
 {
   height: auto;
   width: 100%;
@@ -536,6 +536,15 @@ body
 
 }
 
+@media screen and (max-width: 616px) {
+
+  .contactTop h2
+  {
+    font-size: 45px; 
+  }
+
+}
+
 .bottomSplitter
 {
    margin-top: 20px;
@@ -544,10 +553,9 @@ body
   margin-bottom: 25px;
 }
 
-/*Contact Form*/
-
 .contactForm
 {
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
   padding: 50px 100px;
@@ -556,17 +564,24 @@ body
   align-items: center;
   flex-direction: column;
   max-width: 450px;
-  border: 5px solid grey;
-  border-radius: 100px;
   margin-bottom: 75px;
 }
 
 .contactForm h3
 {
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   font-family: aemstelregular; 
+}
+
+@media screen and (max-width: 616px) {
+
+  .contactForm h3
+  {
+    font-size: 25px;
+  }
+
 }
 
 .text
@@ -576,7 +591,6 @@ body
   font-size: 15px;
   color: #fff;
   flex-direction: column;
-  font-weight: 400;
 }
 
 .contactForm .inputBox
@@ -585,10 +599,15 @@ body
   width: 100%;
 }
 
+.inputBox
+{
+  text-align: center;
+}
+
 .contactForm .inputBox input,
 .contactForm .inputBox textarea
 {
-  width: 400px;
+  width: 100%;
   padding: 5px 0;
   font-size: 15px;
   margin: 30px 0;
@@ -636,4 +655,82 @@ body
 {
   transform: scale(.95);
   transition: transform .25s ease;
+}
+
+/*Advertisements*/
+
+.adverts h2
+{
+  font-size: 60px;
+  font-family: aemstelregular;
+  text-align: center;
+  margin-top: 50px;
+  color: #000;
+}
+
+.adDesc
+{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.adDesc p
+{
+  text-align: center;
+  font-family: aemstelregular;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.advertImage1, .advertImage2, .advertImage3
+{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.img1, .img2, .img3
+{
+  float: left;
+  height: auto;
+  width: 33%;
+  margin-left: 50px;
+}
+
+.img1:hover, .img2:hover, .img3:hover
+{
+  border-radius: 10px;
+  transform: scale(.95);
+  transition: transform .25s ease;
+  cursor: pointer;
+}
+
+#dropDown, #dropDown2, #dropDown3
+{
+  background: #fff;
+  display: none;
+}
+
+
+#dropDown p, #dropDown2 p, #dropDown3 p
+{
+  font-family: Arial;
+  margin-left: 10px;
+  margin-right: 200px; 
+  margin-top: 80px;
+  width: 525px;
+  float: right;
+  font-weight: bolder;
+
+}
+
+@media screen and (max-width: 907px;) {
+
+  .adverts h2
+  {
+    font-size: 45px;
+  }
+
 }
