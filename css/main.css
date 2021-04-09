@@ -661,11 +661,20 @@ body
 
 .adverts h2
 {
-  font-size: 60px;
+  font-size: 40px;
   font-family: aemstelregular;
   text-align: center;
   margin-top: 50px;
   color: #000;
+}
+
+@media screen and (min-width: 907px) {
+
+  .adverts h2
+  {
+    font-size: 60px;
+  }
+
 }
 
 .adDesc
@@ -726,11 +735,170 @@ body
 
 }
 
-@media screen and (max-width: 907px;) {
+@media screen and (max-width: 907px) {
 
-  .adverts h2
+  .advertImage1, .advertImage2, .advertImage3
   {
-    font-size: 45px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
   }
 
+  .img1, .img2, .img3
+  {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: auto;
+    float: none;
+  }
+
+  #dropDown p, #dropDown2 p, #dropDown3 p
+  {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+/*Buy Now / Products*/
+
+.products
+{
+  margin-bottom: 50px;
+}
+
+.products h2
+{
+  font-size: 40px;
+  font-family: aemstelregular;
+  text-align: center;
+  margin-top: 50px;
+  color: #000;
+}
+
+@media screen and (min-width: 907px) {
+
+  .products h2
+  {
+    font-size: 60px;
+  }
+
+}
+
+.products img
+{
+  width: 100%;
+  height: auto;
+}
+
+.products p
+{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: aemstelregular;
+  margin-bottom: 75px;
+  margin-top: 25px;
+}
+
+.singleBottle
+{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 500px;
+}
+
+.singleBottle img
+{
+  height: auto;
+  width: 65%;
+  margin-bottom: 15px;
+  margin-left: 200px;
+}
+
+.singleBottleIMG
+{
+  font-size: 30px;
+  font-family: aemstelregular;
+  margin-bottom: 20px;
+  margin-left: 225px;
+}
+
+.singleBottle p
+{
+  font-family: Arial;
+  /*font-weight: bolder;*/
+  width: 300px;
+  line-height: 20px;
+  margin-left: 211px;
+  margin-bottom: 20px; 
+  display: block;
+}
+
+.buyNowBTN input
+{
+  font-family: aemstelregular;
+  width: 200px;
+  background: #BE2217;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 255px;
+  display: block;
+}
+
+.twoBottlePack
+{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 500px;
+}
+
+.twoBottlePack img
+{
+  height: auto;
+  width: 65%;
+  margin-bottom: 15px;
+  margin-left: 150px;
+}
+
+.twoBottlePackIMG
+{
+  margin-left: 150px;
+  font-size: 30px;
+  font-family: aemstelregular;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.twoBottlePack p
+{
+  font-family: Arial;
+  /*font-weight: bolder;*/
+  width: 300px;
+  line-height: 20px;
+  margin-left: 175px;
+  margin-bottom: 20px; 
+  display: block;
+}
+
+.buyNowBTN2 input
+{
+  font-family: aemstelregular;
+  width: 200px;
+  background: #BE2217;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 220px;
+  display: block;
 }
