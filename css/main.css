@@ -396,20 +396,6 @@ body
 
 /*About Page*/
 
-/*.about img
-{
-  height: 550px;
-  width: 100%;
-}*/
-
-/*.about h2
-{
-  position: absolute; 
-  top: 42%; 
-  width: 85%; 
-  text-align: center;
-}*/
-
 .about p
 {
   font-family: aemstelregular;
@@ -806,6 +792,11 @@ body
   margin-top: 25px;
 }
 
+.topItems
+{
+  margin-bottom: 50px;
+}
+
 .singleBottle
 {
   vertical-align: top;
@@ -901,4 +892,159 @@ body
   padding: 10px;
   margin-left: 220px;
   display: block;
+}
+
+@media screen and (max-width: 1187px) {
+
+  .singleBottle, .twoBottlePack
+  {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .singleBottle, .twoBottlePack
+  {
+    margin-bottom: 50px;
+  }
+
+  .singleBottle img, .twoBottlePack img, .singleBottleIMG, .twoBottlePackIMG, .singleBottle p, .twoBottlePack p, .threeBottles p, .buyNowBTN input, .buyNowBTN2 input
+  {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+.bottomItems
+{
+  padding-bottom: 300px;
+}
+
+.threeBottles
+{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 500px;
+  margin-left: 32px;
+}
+
+.threeBottles img
+{
+  height: auto;
+  width: 65%;
+  margin-bottom: 15px;
+  margin-left: 150px;
+}
+
+.threeBottlesIMG
+{
+  margin-left: 150px;
+  font-size: 30px;
+  font-family: aemstelregular;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.threeBottles p
+{
+  font-family: Arial;
+  /*font-weight: bolder;*/
+  width: 300px;
+  line-height: 20px;
+  margin-left: 175px;
+  margin-bottom: 20px; 
+  display: block;
+}
+
+.buyNowBTN3 input
+{
+  font-family: aemstelregular;
+  width: 200px;
+  background: #BE2217;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 220px;
+  display: block;
+}
+
+.caseOfBandaid
+{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 500px;
+  margin-right: 150px;
+}
+
+.caseOfBandaid img
+{
+  height: auto;
+  width: 65%;
+  margin-bottom: 15px;
+  margin-left: 70px;
+}
+
+.caseOfBandaidIMG
+{
+  margin-left: 70px;
+  font-size: 30px;
+  font-family: aemstelregular;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.caseOfBandaid p
+{
+  font-family: Arial;
+  /*font-weight: bolder;*/
+  width: 300px;
+  line-height: 20px;
+  margin-left: 135px;
+  margin-bottom: 20px; 
+  display: block;
+}
+
+.buyNowBTN4 input
+{
+  font-family: aemstelregular;
+  width: 200px;
+  background: #BE2217;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 185px;
+  display: block;
+}
+
+.buyNowBTN input:hover, .buyNowBTN2 input:hover, .buyNowBTN3 input:hover, .buyNowBTN4 input:hover
+{
+  transform: scale(.95);
+  transition: transform .25s ease;
+}
+
+@media screen and (max-width: 1187px) {
+
+  .threeBottles, .caseOfBandaid
+  {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .threeBottles, .caseOfBandaid
+  {
+    margin-bottom: 50px;
+  }
+
+  .threeBottles img, .caseOfBandaid img, .threeBottlesIMG, .caseOfBandaidIMG, .threeBottles p, .caseOfBandaid p, .buyNowBTN3 input, .buyNowBTN4 input
+  {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
