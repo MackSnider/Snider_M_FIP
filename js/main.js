@@ -20,3 +20,6 @@ console.log("javacript is now linked up");
 	document.getElementById("para3").innerHTML
 	= text1;
 		}
+
+
+
