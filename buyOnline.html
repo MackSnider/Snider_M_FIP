@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<title class="hidden">Band-Aid Beer</title>
+			<link href="css/reset.css" rel="stylesheet" type="text/css">
+			<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="container">
+			<header id="mainHeader">
+				<img src="images/Bandaid.svg" alt="Main Bandaid Logo" id="mainLogo">
+				<!-- This is the NAV for mobile -->
+				<section class="menuNav">
+					<h3 class="hidden">Mobile Navigation</h3>
+				<button data-modal-target="#modal">Menu</button>
+				<div class="modal" id="modal">
+					<div class="modal-header">
+						<div class="title">Menu</div>
+						<button data-close-button class="close-button">&times;</button>
+					</div>
+				<div class="modal-body">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="advertisements.html">Advertisements</a></li>
+						<li><a href="buyOnline.html">Buy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="overlay"></div>
+			</section>
+				<nav class="mainNav">
+				<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="advertisements.html">Advertisements</a></li>
+						<li><a href="buyOnline.html">Buy</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="splitter"></div>
+				<section class="products">
+					<h2 class="productsText">Products</h2>
+					<img src="images/bandaid_cutout.png" height="550" width="1600" alt="beer bottle design">
+					<p>Listed are all of the products currently available on our website.</p>
+				</section>
+				<div class="topItems">
+
+					
+				<div class="singleBottle">
+						<img src="images/1bottleicon.png" height="500" width="500" alt="Single Bottle Icon">
+						<h3 class="singleBottleIMG">Single Bottle</h3>
+						<p>THIS IS A GREAT OPTION FOR ANYONE JUST TRYING OUT OUR BEER! TASTES GREAT AND IS PERFECT FOR ANY TIME OF DAY.</p>
+					<div class="buyNowBTN">
+						<input type="submit" value="BUY NOW">
+					</div>
+				</div>
+				
+
+				<div class="twoBottlePack">
+						<img src="images/2bottleicon.png" height="500" width="500" alt="Two Bottle Icon">
+						<h3 class="twoBottlePackIMG">Two Bottle Pack</h3>
+						<p>THIS PACK IS THE PERFECT CHOICE IF YOU ARE LOOKING TO ENJOY A BEAUTIFUL DRINK WITH A BEAUTIFUL PARTNER!</p>
+					<div class="buyNowBTN2">
+						<input type="submit" value="BUY NOW">
+					</div>
+				</div>
+			</div>
+			<div class="bottomItems">
+				<div class="threeBottles">
+					<img src="images/3bottleIcon.png" height="500" width="500" alt="Three Bottle Icon">
+					<h3 class="threeBottlesIMG">Three Pack</h3>
+					<p>THIS PACK IS AN ABSOLUTE CLASSIC. a GREAT AMOUNT OF BEER TO SHARE WITH TWO OTHER LADS.</p>
+				<div class="buyNowBTN3">
+					<input type="submit" value="BUY NOW">
+				</div>	
+				</div>
+				<div class="caseOfBandaid">
+					<img src="images/boxOfBottlesIcon.png" height="500" width="500" alt="Case of Bandaid Beer Icon">
+					<h3 class="caseOfBandaidIMG">Case of Six</h3>
+					<p>THE SUPERIOR OPTION! SIX BOTTLES OF BANDAID BEER! WHAT MORE COULD YOU ASK FOR?</p>
+				<div class="buyNowBTN4">
+					<input type="submit" value="BUY NOW">
+				</div>
+					
+				</div>
+				
+			</div>	
+
+
+
+		</div>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script defer src="js/main.js"></script>
+		<script defer src="js/animation.js"></script>
+		<script defer src="js/modal.js"></script>
+		<script defer src="js/learn.js"></script>
+	</body>
+</html>

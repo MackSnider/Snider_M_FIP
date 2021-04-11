@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<title class="hidden">Bandaid Beer</title>
+			<link href="css/reset.css" rel="stylesheet" type="text/css">
+			<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="container">
+			<header id="mainHeader">
+				<img src="images/Bandaid.svg" alt="Main Bandaid Logo" id="mainLogo">
+				<!-- This is the NAV for mobile -->
+				<section class="menuNav">
+					<h3 class="hidden">Mobile Navigation</h3>
+				<button data-modal-target="#modal">Menu</button>
+				<div class="modal" id="modal">
+					<div class="modal-header">
+						<div class="title">Menu</div>
+						<button data-close-button class="close-button">&times;</button>
+					</div>
+				<div class="modal-body">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="advertisements.html">Advertisements</a></li>
+						<li><a href="buyOnline.html">Buy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="overlay"></div>
+			</section>
+				<nav class="mainNav">
+				<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="advertisements.html">Advertisements</a></li>
+						<li><a href="buyOnline.html">Buy</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="splitter"></div>
+				<section class="intro">
+					<h2 class="welcomeText">Welcome to Bandaid</h2>
+					<img src="images/bandaid_cutout.png" height="550" width="1600" alt="beer bottle design">
+					<p>Bandaid Beer is a company founded in 2021 by Mackenzie Snider. His combination of alcoholic beverages and healthy lifestyle habits brought a drink that not only tastes great but can also heal you from the inside out.</p>
+				</section>
+				<section class="galleryTop">
+					<h2 class="hidden">Image Gallery Top Images</h2>
+					<!-- trying something -->
+				<video class="bottle" src="assets/rotationVideoSmall.mp4" preload></video>
+				<video class="caseAnimation" src="assets/case_opening_animation.mp4" preload></video>
+
+				</section>
+				<div id="bottomSection">
+				<h2 class="learningText">Learn More</h2>
+
+			<div id="reveal">
+				<p>The process of the original Bandaid Beer’s development is currently unknown. Mackenzie Snider is not willing to share that information with anyone as it is top secret.</p>
+			</div>
+			
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script defer src="js/main.js"></script>
+		<script defer src="js/animation.js"></script>
+		<script defer src="js/modal.js"></script>
+		<script defer src="js/learn.js"></script>
+	</body>
+</html>
